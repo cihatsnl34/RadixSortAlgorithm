@@ -1,12 +1,4 @@
 import time
-import pandas as pd
-import matplotlib.pyplot as plt
-data = pd.read_excel('Kitap1.xlsx')
-x = data.iloc[:,0].values
-y = data.iloc[:,1].values
-plt.xlabel('Zaman')
-plt.ylabel('Boyut')
-plt.plot(y,x)
 baslangic_zamani = time.time()
 
 def countingSortForRadix(inputArray, placeValue):
